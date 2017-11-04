@@ -55,6 +55,9 @@
 @include motion-ui-animations;
 
 //App variables defined here
+$color-black: #000;
+$color-white: #fff;
+$border-radius: 1px solid;
 
 //header styling here
 /*
@@ -83,6 +86,27 @@ Mixin is defined here
   }
 }
 
-.footer{
+.footer {
+  background-color: $color-black;
+  color: $color-white;
+  padding: 40px 0 60px;
 
+  h4 {
+    font-weight: 800;
+  }
+  .social {
+    border: $border-radius $color-white;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+  }
 }
+
+i {
+  font-size: 20px;
+  text-align: center;
+  padding: 5px;
+  margin-bottom: 10px;
+  margin-right: 5px;
+}
+
