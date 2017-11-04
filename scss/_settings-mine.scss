@@ -1,0 +1,19 @@
+//variables here
+$body-font-style: 'Source Sans Pro', sans-serif;
+$font-for-h2: 'Lato', sans-serif;
+$font-for-h4: 'Noto Sans', sans-serif;
+
+//body styling
+h2 {
+  font-family: $font-for-h2;
+  text-align: center;
+}
+
+h4 {
+  font-family: $font-for-h4;
+  text-align: left;
+}
+
+p {
+  font-family: $body-font-style;
+}
